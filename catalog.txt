@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuprins - Catalog Colegi</title>
+    <link rel="stylesheet" href="stylescatalog.css">
+</head>
+<body>
+    <header>
+        <h1>Catalogul Colegilor de Grupă</h1>
+        <p>Bine ați venit la catalogul nostru! Aici puteți afla mai multe despre colegii din grupa noastră, despre interesele și activitățile noastre comune de la facultate.</p>
+    </header>
+
+    <main>
+        <h2>Cuprins</h2>
+        <ul> 
+	    <li><a href="profilulmeu.html">Aici gasiti profilul meu</a></li>
+            <li><a href="coleg1.html">Profil Coleg 1 - Alex Zaha</a></li>
+            <li><a href="coleg2.html">Profil Coleg 2 - Alexandru Ilies</a></li>
+            <li><a href="coleg3.html">Profil Coleg 3 - Roberto Morosanu</a></li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Catalogul Colegilor - ETTI-UTCN</p>
+    </footer>
+</body>
+</html>

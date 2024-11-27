@@ -1,0 +1,52 @@
+/* Stilizare pentru containerul slideshow */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    border: 3px solid #4a90e2;  /* Bordură pentru efect vizual */
+    border-radius: 10px;        /* Colțuri rotunjite */
+    overflow: hidden;           /* Ascunde orice depășire a imaginii */
+}
+
+/* Stilizare pentru fiecare slide */
+.mySlides {
+    display: none;
+    text-align: center;
+    position: relative;
+}
+
+/* Stilizare pentru imaginea din slideshow */
+.mySlides img {
+    width: 100%;       /* Imagina se va întinde pe întreaga lățime a containerului */
+    height: 400px;     /* Înălțime fixă pentru imagini */
+    object-fit: cover; /* Asigură că imaginea se va potrivi corect */
+    border-radius: 10px; /* Colțuri rotunjite pentru imagini */
+}
+
+/* Stilizare pentru textul de pe imagine */
+.text {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);  /* Fundal semi-transparent */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Stilizare pentru butonul de navigare (opțional, dacă dorești să adaugi) */
+button {
+    background-color: #4a90e2;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3b7bbf;
+}
